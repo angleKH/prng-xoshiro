@@ -1,0 +1,38 @@
+{
+	"name": "prng-xoshiro",
+	"version": "1.0.0",
+	"type": "module",
+	"description": "JavaScript implementation of the xoshiro deterministic family of PRNGs (pseudorandom number generators). Written in pure JS, and works on node.js as well as browsers.",
+	"keywords": [
+		"deterministic",
+		"xoshiro",
+		"prng",
+		"vanillajs",
+		"no-dependencies",
+		"standalone",
+		"esm",
+		"random",
+		"rng"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://gitgud.io/anglekh/prng-xoshiro.git"
+	},
+	"bugs": "https://gitgud.io/anglekh/prng-xoshiro/-/issues",
+	"main": "./src/xoshiro.js",
+	"files": [
+		"src/*"
+	],
+	"scripts": {
+		"test": "node --experimental-vm-modules ./node_modules/jest/bin/jest.js",
+		"build": "webpack"
+	},
+	"author": "Khang Le",
+	"license": "GPL-3.0-or-later",
+	"devDependencies": {
+		"jest": "^27.0.4",
+		"rollup": "^2.51.1",
+		"webpack": "^5.38.1",
+		"webpack-cli": "^4.7.0"
+	}
+}
