@@ -17,7 +17,7 @@ npm install prng-xoshiro
 ```
 
 ## API
-The available generators are `XoShiRo256PlusPlus`, `XoShiRo256StarStar`, `XoShiRo256Plus`, `XoShiRo128PlusPlus`, `XoShiRo128StarStar`, `XoShiRo128Plus`. For more information, see the website on [xoshiro]https://prng.di.unimi.it/).
+The available generators are `XoShiRo256PlusPlus`, `XoShiRo256StarStar`, `XoShiRo256Plus`, `XoShiRo128PlusPlus`, `XoShiRo128StarStar`, `XoShiRo128Plus`. For more information, see the website on [xoshiro](https://prng.di.unimi.it/).
 
 All generators implement the *Iterable* Interface, so it is possible to use with for...of loops:
 ```js
